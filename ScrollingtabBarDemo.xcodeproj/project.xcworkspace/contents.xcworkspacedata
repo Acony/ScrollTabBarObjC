@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:tabBarDemo.xcodeproj">
+      location = "self:/Users/CPU11792-local/Desktop/tabBarDemo/ScrollingtabBarDemo.xcodeproj">
    </FileRef>
 </Workspace>

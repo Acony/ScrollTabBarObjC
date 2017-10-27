@@ -16,6 +16,8 @@
 		81D68C741FA1FBB1009EC63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D68C721FA1FBB1009EC63B /* LaunchScreen.storyboard */; };
 		81D68C7F1FA1FBB1009EC63B /* tabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D68C7E1FA1FBB1009EC63B /* tabBarDemoTests.m */; };
 		81D68C8A1FA1FBB1009EC63B /* tabBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D68C891FA1FBB1009EC63B /* tabBarDemoUITests.m */; };
+		81D68C991FA204B2009EC63B /* CustomTabBarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D68C981FA204B2009EC63B /* CustomTabBarDelegate.m */; };
+		81D68C9C1FA20532009EC63B /* CustomViewControllerAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D68C9B1FA20532009EC63B /* CustomViewControllerAnimatedTransitioning.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		81D68C5E1FA1FBB1009EC63B /* tabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D68C5E1FA1FBB1009EC63B /* ScrollingtabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingtabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D68C621FA1FBB1009EC63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81D68C641FA1FBB1009EC63B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		81D68C651FA1FBB1009EC63B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,12 +50,16 @@
 		81D68C701FA1FBB1009EC63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81D68C731FA1FBB1009EC63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81D68C751FA1FBB1009EC63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81D68C7A1FA1FBB1009EC63B /* tabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D68C7A1FA1FBB1009EC63B /* ScrollingtabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingtabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D68C7E1FA1FBB1009EC63B /* tabBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabBarDemoTests.m; sourceTree = "<group>"; };
 		81D68C801FA1FBB1009EC63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81D68C851FA1FBB1009EC63B /* tabBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D68C851FA1FBB1009EC63B /* ScrollingtabBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingtabBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D68C891FA1FBB1009EC63B /* tabBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabBarDemoUITests.m; sourceTree = "<group>"; };
 		81D68C8B1FA1FBB1009EC63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D68C971FA204B2009EC63B /* CustomTabBarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarDelegate.h; sourceTree = "<group>"; };
+		81D68C981FA204B2009EC63B /* CustomTabBarDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarDelegate.m; sourceTree = "<group>"; };
+		81D68C9A1FA20532009EC63B /* CustomViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		81D68C9B1FA20532009EC63B /* CustomViewControllerAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewControllerAnimatedTransitioning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +100,9 @@
 		81D68C5F1FA1FBB1009EC63B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81D68C5E1FA1FBB1009EC63B /* tabBarDemo.app */,
-				81D68C7A1FA1FBB1009EC63B /* tabBarDemoTests.xctest */,
-				81D68C851FA1FBB1009EC63B /* tabBarDemoUITests.xctest */,
+				81D68C5E1FA1FBB1009EC63B /* ScrollingtabBarDemo.app */,
+				81D68C7A1FA1FBB1009EC63B /* ScrollingtabBarDemoTests.xctest */,
+				81D68C851FA1FBB1009EC63B /* ScrollingtabBarDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +116,10 @@
 				81D68C681FA1FBB1009EC63B /* FirstViewController.m */,
 				81D68C6A1FA1FBB1009EC63B /* SecondViewController.h */,
 				81D68C6B1FA1FBB1009EC63B /* SecondViewController.m */,
+				81D68C971FA204B2009EC63B /* CustomTabBarDelegate.h */,
+				81D68C981FA204B2009EC63B /* CustomTabBarDelegate.m */,
+				81D68C9A1FA20532009EC63B /* CustomViewControllerAnimatedTransitioning.h */,
+				81D68C9B1FA20532009EC63B /* CustomViewControllerAnimatedTransitioning.m */,
 				81D68C6D1FA1FBB1009EC63B /* Main.storyboard */,
 				81D68C701FA1FBB1009EC63B /* Assets.xcassets */,
 				81D68C721FA1FBB1009EC63B /* LaunchScreen.storyboard */,
@@ -148,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81D68C5D1FA1FBB1009EC63B /* tabBarDemo */ = {
+		81D68C5D1FA1FBB1009EC63B /* ScrollingtabBarDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81D68C8E1FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "tabBarDemo" */;
+			buildConfigurationList = 81D68C8E1FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "ScrollingtabBarDemo" */;
 			buildPhases = (
 				81D68C5A1FA1FBB1009EC63B /* Sources */,
 				81D68C5B1FA1FBB1009EC63B /* Frameworks */,
@@ -160,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = tabBarDemo;
+			name = ScrollingtabBarDemo;
 			productName = tabBarDemo;
-			productReference = 81D68C5E1FA1FBB1009EC63B /* tabBarDemo.app */;
+			productReference = 81D68C5E1FA1FBB1009EC63B /* ScrollingtabBarDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		81D68C791FA1FBB1009EC63B /* tabBarDemoTests */ = {
+		81D68C791FA1FBB1009EC63B /* ScrollingtabBarDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81D68C911FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "tabBarDemoTests" */;
+			buildConfigurationList = 81D68C911FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "ScrollingtabBarDemoTests" */;
 			buildPhases = (
 				81D68C761FA1FBB1009EC63B /* Sources */,
 				81D68C771FA1FBB1009EC63B /* Frameworks */,
@@ -178,14 +188,14 @@
 			dependencies = (
 				81D68C7C1FA1FBB1009EC63B /* PBXTargetDependency */,
 			);
-			name = tabBarDemoTests;
+			name = ScrollingtabBarDemoTests;
 			productName = tabBarDemoTests;
-			productReference = 81D68C7A1FA1FBB1009EC63B /* tabBarDemoTests.xctest */;
+			productReference = 81D68C7A1FA1FBB1009EC63B /* ScrollingtabBarDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		81D68C841FA1FBB1009EC63B /* tabBarDemoUITests */ = {
+		81D68C841FA1FBB1009EC63B /* ScrollingtabBarDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81D68C941FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "tabBarDemoUITests" */;
+			buildConfigurationList = 81D68C941FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "ScrollingtabBarDemoUITests" */;
 			buildPhases = (
 				81D68C811FA1FBB1009EC63B /* Sources */,
 				81D68C821FA1FBB1009EC63B /* Frameworks */,
@@ -196,9 +206,9 @@
 			dependencies = (
 				81D68C871FA1FBB1009EC63B /* PBXTargetDependency */,
 			);
-			name = tabBarDemoUITests;
+			name = ScrollingtabBarDemoUITests;
 			productName = tabBarDemoUITests;
-			productReference = 81D68C851FA1FBB1009EC63B /* tabBarDemoUITests.xctest */;
+			productReference = 81D68C851FA1FBB1009EC63B /* ScrollingtabBarDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,6 +222,7 @@
 				TargetAttributes = {
 					81D68C5D1FA1FBB1009EC63B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7F6386PWS4;
 						ProvisioningStyle = Automatic;
 					};
 					81D68C791FA1FBB1009EC63B = {
@@ -226,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81D68C591FA1FBB1009EC63B /* Build configuration list for PBXProject "tabBarDemo" */;
+			buildConfigurationList = 81D68C591FA1FBB1009EC63B /* Build configuration list for PBXProject "ScrollingtabBarDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -239,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81D68C5D1FA1FBB1009EC63B /* tabBarDemo */,
-				81D68C791FA1FBB1009EC63B /* tabBarDemoTests */,
-				81D68C841FA1FBB1009EC63B /* tabBarDemoUITests */,
+				81D68C5D1FA1FBB1009EC63B /* ScrollingtabBarDemo */,
+				81D68C791FA1FBB1009EC63B /* ScrollingtabBarDemoTests */,
+				81D68C841FA1FBB1009EC63B /* ScrollingtabBarDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +291,9 @@
 			files = (
 				81D68C6C1FA1FBB1009EC63B /* SecondViewController.m in Sources */,
 				81D68C661FA1FBB1009EC63B /* AppDelegate.m in Sources */,
+				81D68C9C1FA20532009EC63B /* CustomViewControllerAnimatedTransitioning.m in Sources */,
 				81D68C691FA1FBB1009EC63B /* FirstViewController.m in Sources */,
+				81D68C991FA204B2009EC63B /* CustomTabBarDelegate.m in Sources */,
 				81D68C631FA1FBB1009EC63B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,12 +319,12 @@
 /* Begin PBXTargetDependency section */
 		81D68C7C1FA1FBB1009EC63B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81D68C5D1FA1FBB1009EC63B /* tabBarDemo */;
+			target = 81D68C5D1FA1FBB1009EC63B /* ScrollingtabBarDemo */;
 			targetProxy = 81D68C7B1FA1FBB1009EC63B /* PBXContainerItemProxy */;
 		};
 		81D68C871FA1FBB1009EC63B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 81D68C5D1FA1FBB1009EC63B /* tabBarDemo */;
+			target = 81D68C5D1FA1FBB1009EC63B /* ScrollingtabBarDemo */;
 			targetProxy = 81D68C861FA1FBB1009EC63B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,9 +441,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F6386PWS4;
 				INFOPLIST_FILE = tabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.quang.tabBarDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quang.12345;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,9 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F6386PWS4;
 				INFOPLIST_FILE = tabBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.quang.tabBarDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quang.12345;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -454,7 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.quang.tabBarDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabBarDemo.app/tabBarDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingtabBarDemo.app/ScrollingtabBarDemo";
 			};
 			name = Debug;
 		};
@@ -466,7 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.quang.tabBarDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabBarDemo.app/tabBarDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingtabBarDemo.app/ScrollingtabBarDemo";
 			};
 			name = Release;
 		};
@@ -495,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81D68C591FA1FBB1009EC63B /* Build configuration list for PBXProject "tabBarDemo" */ = {
+		81D68C591FA1FBB1009EC63B /* Build configuration list for PBXProject "ScrollingtabBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81D68C8C1FA1FBB1009EC63B /* Debug */,
@@ -504,29 +519,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81D68C8E1FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "tabBarDemo" */ = {
+		81D68C8E1FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "ScrollingtabBarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81D68C8F1FA1FBB1009EC63B /* Debug */,
 				81D68C901FA1FBB1009EC63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		81D68C911FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "tabBarDemoTests" */ = {
+		81D68C911FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "ScrollingtabBarDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81D68C921FA1FBB1009EC63B /* Debug */,
 				81D68C931FA1FBB1009EC63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		81D68C941FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "tabBarDemoUITests" */ = {
+		81D68C941FA1FBB1009EC63B /* Build configuration list for PBXNativeTarget "ScrollingtabBarDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81D68C951FA1FBB1009EC63B /* Debug */,
 				81D68C961FA1FBB1009EC63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,8 +2,7 @@
 //  tabBarDemoUITests.m
 //  tabBarDemoUITests
 //
-//  Created by quanght2 on 10/26/17.
-//  Copyright © 2017 VngCorp. All rights reserved.
+//  Created by quanght on 10/26/17.
 //
 
 #import <XCTest/XCTest.h>

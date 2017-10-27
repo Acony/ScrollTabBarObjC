@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81D68C5D1FA1FBB1009EC63B"
-               BuildableName = "tabBarDemo.app"
-               BlueprintName = "tabBarDemo"
-               ReferencedContainer = "container:tabBarDemo.xcodeproj">
+               BuildableName = "ScrollingtabBarDemo.app"
+               BlueprintName = "ScrollingtabBarDemo"
+               ReferencedContainer = "container:ScrollingtabBarDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81D68C791FA1FBB1009EC63B"
-               BuildableName = "tabBarDemoTests.xctest"
-               BlueprintName = "tabBarDemoTests"
-               ReferencedContainer = "container:tabBarDemo.xcodeproj">
+               BuildableName = "ScrollingtabBarDemoTests.xctest"
+               BlueprintName = "ScrollingtabBarDemoTests"
+               ReferencedContainer = "container:ScrollingtabBarDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81D68C841FA1FBB1009EC63B"
-               BuildableName = "tabBarDemoUITests.xctest"
-               BlueprintName = "tabBarDemoUITests"
-               ReferencedContainer = "container:tabBarDemo.xcodeproj">
+               BuildableName = "ScrollingtabBarDemoUITests.xctest"
+               BlueprintName = "ScrollingtabBarDemoUITests"
+               ReferencedContainer = "container:ScrollingtabBarDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81D68C5D1FA1FBB1009EC63B"
-            BuildableName = "tabBarDemo.app"
-            BlueprintName = "tabBarDemo"
-            ReferencedContainer = "container:tabBarDemo.xcodeproj">
+            BuildableName = "ScrollingtabBarDemo.app"
+            BlueprintName = "ScrollingtabBarDemo"
+            ReferencedContainer = "container:ScrollingtabBarDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81D68C5D1FA1FBB1009EC63B"
-            BuildableName = "tabBarDemo.app"
-            BlueprintName = "tabBarDemo"
-            ReferencedContainer = "container:tabBarDemo.xcodeproj">
+            BuildableName = "ScrollingtabBarDemo.app"
+            BlueprintName = "ScrollingtabBarDemo"
+            ReferencedContainer = "container:ScrollingtabBarDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81D68C5D1FA1FBB1009EC63B"
-            BuildableName = "tabBarDemo.app"
-            BlueprintName = "tabBarDemo"
-            ReferencedContainer = "container:tabBarDemo.xcodeproj">
+            BuildableName = "ScrollingtabBarDemo.app"
+            BlueprintName = "ScrollingtabBarDemo"
+            ReferencedContainer = "container:ScrollingtabBarDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
